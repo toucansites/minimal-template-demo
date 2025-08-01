@@ -1,0 +1,12 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    {{#empty(urls)}}
+    {{/empty(urls)}}
+    {{^empty(urls)}}
+    <url>
+        {{#context.pages}}
+            <loc>{{permalink}}</loc>
+            <lastmod>{{lastUpdate.formats.sitemap}}</lastmod>
+        {{/context.pages}}
+    </url>
+    {{/empty(urls)}}
+</urlset>
