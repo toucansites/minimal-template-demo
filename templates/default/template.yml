@@ -2,18 +2,14 @@ name: "minimal template"
 description: "A minimal template for the Toucan static site generator"
 url: "https://github.com/toucansites/minimal-template"
 version: "1.0.0-beta.6"
-generatorVersions:
-    - "1.0.0-beta.5"
-    - "1.0.0-beta.6"
-
+generatorVersion:
+    value: "1.0.0-beta.6"
 authors:
     - name: "Binary Birds Kft."
       url: "https://binarybirds.com/"
-
 license:
     name: "MIT license"
     url: "https://github.com/toucansites/minimal-template?tab=MIT-1-ov-file"
-
 tags:
     - "binarybirds"
     - "minimal"
